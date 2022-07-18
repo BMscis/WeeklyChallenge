@@ -1,0 +1,6 @@
+/.vscode
+/reach
+/WhiteList/.reach
+/WhiteList/.dockerignore
+/WhiteList/.Dockerfile
+/WhiteList/reach
