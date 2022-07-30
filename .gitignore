@@ -4,3 +4,7 @@
 /WhiteList/.dockerignore
 /WhiteList/.Dockerfile
 /WhiteList/reach
+/DeadMansSwitch/.reach
+/DeadMansSwitch/.dockerignore
+/DeadMansSwitch/.Dockerfile
+/DeadMansSwitch/reach
