@@ -8,14 +8,14 @@ const [ accA, accB, accC ] = await stdlib.newTestAccounts(3, startingBalance);
 const JTOKEN = await stdlib.launchToken(accA,"JTOKEN","JTK",{supply:startingBalance})
 const JID = JTOKEN.id
 await accA.tokenAccept(JID)
-const participants = [];
-const users = [
+//const participants = [];
+const participants = [
     ["Bob",  accA],
     ["Alice",accB],
     ["Steve",accC],
 ]
-users.map(pat => participants.push(pat))
-//JTOKEN.mint(accB, stdlib.parseCurrency(10))
+
+console.log("PART: ",participants)
 let done = false
 const checkBalance = async () => {
     for ( const [who, acc] of participants ) {
