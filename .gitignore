@@ -8,3 +8,8 @@
 /DeadMansSwitch/.dockerignore
 /DeadMansSwitch/.Dockerfile
 /DeadMansSwitch/reach
+/NFTRaffle/Level 2/.reach
+/NFTRaffle/Level 2/package.json
+/NFTRaffle/Level 2/reach
+/NFTRaffle/Level 3/svelte/Rsh/.reach
+/NFTRaffle/Level 3/svelte/Rsh/reach
